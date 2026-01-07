@@ -380,12 +380,20 @@ header {
   .right {
     width: 100%;
   }
+  .hero-grid .right img {
+    max-width: 300px;
+    
+  }
   .container {
     flex-direction: column;
   }
   .nav-container {
     flex-direction: column;
     gap: 10px;
+  }
+  .nav-links {
+    padding: 10px 20px;
+    gap: 15px;
   }
   .about-box {
     grid-template-columns: repeat(3, 1fr);
