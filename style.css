@@ -369,6 +369,20 @@ header {
 }
 
 @media (max-width: 768px) {
+  .nav-container{
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav-links {
+    padding: 10px 20px;
+    gap: 15px;
+    font-size: 15px;
+  }
+  .cta {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
   .hero-section {
     background-image: none;
   }
@@ -386,14 +400,6 @@ header {
   }
   .container {
     flex-direction: column;
-  }
-  .nav-container {
-    flex-direction: column;
-    gap: 10px;
-  }
-  .nav-links {
-    padding: 10px 20px;
-    gap: 15px;
   }
   .about-box {
     grid-template-columns: repeat(3, 1fr);
