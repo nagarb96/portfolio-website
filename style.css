@@ -111,6 +111,8 @@ header {
   border-radius: 6px;
 }
 .hero-btn {
+  display: flex;
+  gap: 15px;
   margin-top: 20px;
 }
 .right {
@@ -377,7 +379,7 @@ header {
   .nav-links {
     padding: 10px 20px;
     gap: 10px;
-    font-size: 12px;
+    font-size: 13px;
   }
   .cta {
     padding: 8px 16px;
@@ -390,19 +392,21 @@ header {
     flex-direction: column;
     text-align: center;
   }
+  .hero-btn {
+    flex-direction: column;
+  }
   .left,
   .right {
     width: 100%;
   }
   .hero-grid .right img {
-    max-width: 300px;
-    
+    max-width: 300px; 
   }
   .container {
     flex-direction: column;
   }
   .about-box {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     min-width: 300px;
   }
   .about-box .info:hover {
@@ -417,7 +421,7 @@ header {
     grid-template-columns: 2fr 2fr;
   }
   .projects-grid {
-    margin: 80px;
+    margin: 30px;
     grid-template-columns: 1fr;
   }
   .project-card img {
@@ -440,5 +444,8 @@ header {
   }
   .footer-right .nav-links {
     display: flex;
+  }
+  .footer-bottom {
+    font-size: 12px;
   }
 }
